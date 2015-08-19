@@ -1,0 +1,23 @@
+{
+  "name": "ioc-di",
+  "version": "0.0.0",
+  "description": "An Inversion of Control and Dependency Injection library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ioc",
+    "di",
+    "inversion",
+    "control",
+    "dependency",
+    "injection"
+  ],
+  "author": "Christopher Turner <turner296@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deep-freeze": "0.0.1",
+    "extend": "^3.0.0"
+  }
+}
