@@ -1,5 +1,3 @@
-var Definition = require('./lib/definition');
-
-module.exports = function ioc() { 
-  return new Definition();
+module.exports = function ioc() {
+  return new require('./lib/factory')();
 };
